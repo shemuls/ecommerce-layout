@@ -1,0 +1,101 @@
+body{
+    font-family: poppins;
+}
+
+.navbar ul li{
+    margin-left: 10px;;
+}
+
+.navbar ul li a{
+    color: #707070;
+    font-weight: 500;
+}
+ol.carousel-indicators li{
+    background-color: #aaa;
+    width: 10px;
+    height: 8px;
+}
+ol.carousel-indicators li.active{
+    width: 45px;
+    background-color: #FFBA25;
+}
+.btn-dark{
+    background-color: black !important;
+}
+.c-707070{
+    color: #707070;
+    font-weight: 300;
+}
+.c-000{
+    color: #000
+}
+
+.my-slider-area{
+    margin-top: -60px;
+}
+@media only screen and (max-width: 768px) {
+    .my-slider-area{
+        margin-top: 0px !important;
+    }
+}
+.my-product-area{
+    margin-top: 70px;
+    margin-bottom: 50px;
+}
+.my-product-area .show-category h3{
+    font-size: 30px;
+    font-weight: 600;
+    color: #1f1f1f
+}
+.my-product-area .show-category h6{
+    color: #FF9D00;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.my-product-area .card{
+    border: none;
+    padding: 40px 0 10px 0;
+}
+@media only screen and (max-width: 990px) {
+    .my-product-area .card-body{
+        padding: 40px 0 40px 0 !important;
+    }
+}
+
+.my-product-area .card-body{
+    text-align: center;
+    padding: 40px;
+}
+.my-product-area .card-body h5{
+    font-size: 22px;
+    font-weight: 600;
+    color: #000;
+}
+.my-product-area .card-body p{
+    font-size: 16px;
+    font-weight: 300;
+    color: #707070;
+}
+
+.category-area{
+    padding: 70px 0;
+
+}
+.my-divider{
+    width: 100px;
+    height: 8px;
+    background-color: #FEBC22;
+    margin: auto;
+}
+
+.category-area .cat-img{
+    text-align: center;
+    padding: 20px 50px;
+    margin: 8px !important;
+}
+
+.footer{
+    background: #eee;
+}
+
